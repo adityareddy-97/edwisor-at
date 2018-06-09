@@ -1,0 +1,229 @@
+:root {
+
+    font-size: 16px;
+}
+
+html,body{
+  height: 100%;
+  margin:0;
+  box-sizing: border-box;
+}
+
+.parallax {
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bgimage1{
+    background-image: url('b7.jpg');
+      height: 65%;
+}
+
+.bgimage2{
+   background-image: url('b6.jpg');
+   height: 50%;
+}
+
+.bgimage3{
+   background-image: url('pexels 1280.jpg');
+   height:83%
+}
+
+
+.bgimage4{
+   background-image: url('cp.jpg');
+   height: 60%;
+}
+
+.bgimage5{
+     background-image: url('web 1400.jpg');
+     height: 50%;
+}
+
+.bgimage6{
+     background-image: url('b9.jpg');
+     height: 70%;
+}
+
+div{
+  box-sizing: border-box;
+}
+
+
+
+.caption {
+  position: relative;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+  font-family:cursive;
+}
+
+
+
+
+.header{
+  font-family: 'Rock Salt';
+  font-size: 1rem;
+  color: #8FB9AD;
+  padding: 5px;
+  text-align: center;
+  letter-spacing: 30px;
+
+}
+
+.navbar{
+  overflow: hidden;
+
+}
+
+.navbar a{
+  float: left;
+  display: block;
+  color:grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: cursive;
+}
+
+.navbar a:hover{
+  background-color: #E0F3EE;
+  color: #8FB9AD;
+}
+
+
+
+.row1{
+  width: 100%;
+  height: auto;
+  font-family:'Sniglet';
+  color: #F7EFEB ;
+  font-size: 1.5rem;
+  background-color: #F59670;
+  padding: 25px;
+
+}
+
+
+    .row1  p{
+   display: inline;
+   text-align: justify;
+   line-height: 1.6;
+   word-spacing: 10px;
+
+
+}
+
+.row1 img{
+
+  display: block;
+  float: left;
+
+  padding-right: 15px;
+
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.shorttext{
+   display: none;
+}
+
+.row2{
+  width: 100%;
+  height:auto;
+  font-family: 'Sniglet';
+  font-size:1.5rem;
+  background-color: #5DA6CF;
+  color: #EAE2C8  ;
+
+  padding: 15px 10px;
+
+}
+
+
+  ul{
+
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 10%;
+  }
+
+
+
+ul li{
+  padding: 10px;
+
+}
+
+li p{
+   vertical-align:top;
+   padding-left: 10px;
+   display: inline;
+   word-wrap: break-word;
+
+}
+
+/*Media Queries*/
+
+@media only screen and (max-width:767px)  {
+  .row1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.2rem;
+
+  }
+
+  .row1 p{
+     text-align: justify;
+     word-spacing: normal;
+  }
+
+  .row2{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    font-size: 1.2rem;
+  }
+
+  #gd4{
+    width: 130px;
+  }
+
+
+ .caption span.border{
+   font-size: 1.3rem;
+ }
+
+   .fulltext{
+      display: none;
+   }
+
+   .shorttext{
+     display: inline-flex;
+   }
+
+}
